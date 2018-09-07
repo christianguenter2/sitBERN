@@ -21,7 +21,8 @@ CLASS zcl_sitbern IMPLEMENTATION.
            FIELDS user_name,
                   description,
                   gltgv,
-                  gltgb
+                  gltgb,
+                  aname
            INTO TABLE @DATA(zsitbern).
 
     cl_demo_output=>write( zsitbern ).
