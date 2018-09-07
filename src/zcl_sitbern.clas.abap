@@ -22,7 +22,8 @@ CLASS zcl_sitbern IMPLEMENTATION.
                   description,
                   gltgv,
                   gltgb,
-                  aname
+                  aname,
+                  bcda1
            INTO TABLE @DATA(zsitbern).
 
     cl_demo_output=>write( zsitbern ).
