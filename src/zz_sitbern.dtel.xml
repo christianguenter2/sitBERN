@@ -15,9 +15,7 @@
     <SCRTEXT_S>sitBERN at</SCRTEXT_S>
     <SCRTEXT_M>sitBERN attendee</SCRTEXT_M>
     <SCRTEXT_L>sitBERN attendee</SCRTEXT_L>
-    <ACTFLAG>I</ACTFLAG>
     <DTELMASTER>E</DTELMASTER>
-    <RESERVEDTE>JB</RESERVEDTE>
     <REFKIND>D</REFKIND>
    </DD04V>
   </asx:values>
