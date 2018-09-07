@@ -15,7 +15,8 @@ CLASS zcl_sitbern IMPLEMENTATION.
 
   METHOD run.
 
-    cl_demo_output=>display( |Hello sitBERN!| ).
+    cl_demo_output=>write( |Hello sitBERN!| ).
+    cl_demo_output=>display( ).
 
   ENDMETHOD.
 
