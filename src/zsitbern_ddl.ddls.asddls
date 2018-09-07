@@ -12,6 +12,7 @@ define view zsitbern_ddl
   description,
   gltgv,
   gltgb,
-  aname
+  aname,
+  bcda1
 
 }

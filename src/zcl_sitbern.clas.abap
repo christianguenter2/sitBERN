@@ -17,15 +17,16 @@ CLASS zcl_sitbern IMPLEMENTATION.
 
     cl_demo_output=>write( |Hello sitBERN!!!| ).
 
-    SELECT FROM zsitbern_ddl
+   SELECT FROM zsitbern_ddl
            FIELDS user_name,
                   description,
                   gltgv,
                   gltgb,
-                  aname
+                  aname,
+bcda1
            INTO TABLE @DATA(zsitbern).
 
-    cl_demo_output=>write( zsitbern ).
+    cl_demo_output=>write( zsitbern).
     cl_demo_output=>display( ).
 
   ENDMETHOD.
