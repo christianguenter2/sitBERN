@@ -8,11 +8,9 @@ define view zsitbern_ddl
 {
 
   //zsitbern
-  zsitbern.mandt,
   user_name,
   description,
   gltgv,
   gltgb
 
-} 
- 
+}

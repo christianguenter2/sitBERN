@@ -16,6 +16,15 @@ CLASS zcl_sitbern IMPLEMENTATION.
   METHOD run.
 
     cl_demo_output=>write( |Hello sitBERN!| ).
+
+    SELECT FROM zsitbern_ddl
+           FIELDS user_name,
+                  description,
+                  gltgv,
+                  gltgb
+           INTO TABLE @DATA(zsitbern).
+
+    cl_demo_output=>write( zsitbern ).
     cl_demo_output=>display( ).
 
   ENDMETHOD.
