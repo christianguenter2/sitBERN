@@ -27,6 +27,7 @@ CLASS zcl_sitbern IMPLEMENTATION.
            INTO TABLE @DATA(zsitbern).
 
     cl_demo_output=>write( zsitbern ).
+    cl_demo_output=>write( zsitbern ).
     cl_demo_output=>display( ).
 
   ENDMETHOD.
