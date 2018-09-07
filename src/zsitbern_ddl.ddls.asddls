@@ -11,6 +11,7 @@ define view zsitbern_ddl
   user_name,
   description,
   gltgv,
-  gltgb
+  gltgb,
+  aname
 
 }
