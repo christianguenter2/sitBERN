@@ -15,7 +15,7 @@ CLASS zcl_sitbern IMPLEMENTATION.
 
   METHOD run.
 
-    cl_demo_output=>write( |Hello sitBERN!| ).
+    cl_demo_output=>write( |Hello sitBERN!!!| ).
 
     SELECT FROM zsitbern_ddl
            FIELDS user_name,
